@@ -1,0 +1,48 @@
+
+form{
+    background: linear-gradient(135deg, #e66465 60%, #9198e5);
+    width: 40%;
+    border: 2px solid black;
+    margin: 0 auto;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+}
+input, select{
+    padding: 10px;
+    margin-top: 15px;
+}
+.nome, .aniversario,.endereco,.telefone,.email, .profissao, .sexo, .estadoCivil {
+    float: left;
+    width: 50%;
+    padding: 0 0 10px 0;
+}
+.botao{
+  padding: 10px;
+  width: 60%;
+  background-color: rgb(243, 246, 247);
+  cursor: pointer;
+  margin-left: 80px;
+  border-radius: 20px;
+  border: 2px solid black;
+  margin-top: 30px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.botao:hover{
+    background: black;
+    transition: 0.9s;
+
+    color: white;
+}
+
+@media only screen and (max-width: 1000px) {
+    .nome, .aniversario,.endereco,.telefone,.email, .profissao, .sexo, .estadoCivil {
+        float: left;
+        width: 100%;
+        padding: 0 0 10px 0;
+       
+    }  
+}
