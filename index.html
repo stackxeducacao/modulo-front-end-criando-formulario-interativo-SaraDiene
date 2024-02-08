@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Formulário</title>
+</head>
+<body>
+    <form>
+        <h1>Formulário de Registro</h1>
+        <hr>
+    
+        <div class="nome">
+        <i class="fa-solid fa-user"></i>
+        <label>Nome completo</label><br>
+        <input type="text" placeholder="Seu nome completo" required>
+        </div>
+
+        <div class="aniversario">
+        <i class="fa-solid fa-calendar-days"></i>
+        <label>Data Aniversário</label><br>
+        <input type="date" required><br>
+        </div>
+
+        <div class="endereco">
+        <i class="fa-solid fa-location-dot"></i>
+        <label>Endereço</label><br>
+        <input type="text" placeholder="Seu endereço completo" required>
+        </div>
+
+        <div class="telefone">
+        <i class="fa-solid fa-phone"></i>
+        <label>Telefone</label><br>
+        <input type="tel" placeholder="(xx)xxxxx-xxxx" required><br>
+        </div>
+
+        <div class="email">
+        <i class="fa-solid fa-envelope"></i>
+        <label>Email</label><br>
+        <input type="email" placeholder="xxxxxx@xxxxx.com.br" required>
+        </div>
+
+        <div class="profissao">
+        <i class="fa-solid fa-handshake"></i>
+        <label>Profissão</label><br>
+        <input type="text" placeholder="Sua profissão" required><br>
+        </div>
+
+        <div class="sexo">
+        <i class="fa-solid fa-venus-mars"></i>
+        <label>Sexo</label><br>
+        <input type="text" placeholder="Seu sexo">
+        </div>
+
+        <div class="estadoCivil">
+        <i class="fa-solid fa-heart"></i>
+        <label>Estado Civil</label><br>
+        <select name="Estado Civil">
+            <option value="Casado">Casado (a)</option>
+            <option value="Solteiro">Soteiro (a)</option>
+            <option value="Divorciado">Divorciado (a)</option>
+            <option value="Uniao estavel">União Estável</option>
+        </select><br>
+        </div>
+
+        <div class="button">
+        <input type="submit" value="Enviar" class="botao">
+        </div>
+    </form>
+    
+</body>
+</html>
